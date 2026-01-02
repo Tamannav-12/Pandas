@@ -1,0 +1,15 @@
+import pandas as pd
+vk=pd.read_csv(r"C:\Users\Lenovo\Downloads\kohli_ipl.csv" , index_col='match_no')
+series=vk.squeeze()
+print(series.count())
+print(series.sum())
+print(series.product())
+print(series.median())
+print(series.mean())
+print(series.mode())
+print(series.std())
+print(series.var())
+print(series.min())
+print(series.max())
+print(series.describe())
+
