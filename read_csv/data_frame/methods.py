@@ -1,0 +1,16 @@
+import numpy as np
+import pandas as pd
+movies=pd.read_csv(r"C:\Users\Lenovo\Downloads\movies.csv")
+print(movies.shape)
+print(movies.dtypes)
+print(movies.index)
+print(movies.columns)
+print(movies.values)
+print(movies.head())
+print(movies.tail())
+print(movies.sample)
+print(movies.info)
+print(movies.describe)
+print(movies.isnull)
+print(movies.rename)
+print(movies.duplicated)
